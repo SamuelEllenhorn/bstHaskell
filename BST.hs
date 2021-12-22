@@ -21,4 +21,9 @@ treeElem x (Node a left right)
 Source:
 http://learnyouahaskell.com/making-our-own-types-and-typeclasses
 This tutorial is very usefull and easy to understand, I reference it alot in my report. I would recomend this to other students.
+
+Testing:
+let nums = [8,6,4,1,7,3,5] 
+let numsTree = foldr treeInsert EmptyTree nums
+numsTre
 -}
